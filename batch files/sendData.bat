@@ -1,3 +1,5 @@
+::copy paste the path into the command prompt and transfer data to a location that you can edit.
+
 @ECHO OFF
 D:
 cd D:\Downloads\Mirror
@@ -10,7 +12,7 @@ IF "%location%"=="" GOTO Error
 
 ECHO "%location%". Transferring to ringtones!
 PAUSE
-adb push "%location%" /storage/3248-0A10/Ringtones 
+adb push "%location%" /storage/your_device_location/Ringtones 
 GOTO End
 
 :Error
