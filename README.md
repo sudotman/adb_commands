@@ -7,6 +7,8 @@ You can use Minimal ADB and Fastboot for a quicker setup: https://forum.xda-deve
 
 You can test the working of ADB by opening a command prompt in your Minimal ADB and Fastboot folder and typing "adb devices", if it's working, your device should show up with a device id.
 
+Scrcpy for screen-mirroring: https://github.com/Genymobile/scrcpy
+
 # Usage
  Edit the batch files to specify path to the adb folder.
 
