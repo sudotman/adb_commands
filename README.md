@@ -3,11 +3,34 @@ Some useful adb commands for transferring data to/from your android device, with
 
 # Prerequisites
 You should have ADB and the necessary drivers for your device installed.
-You can use Minimal ADB and Fastboot for a quicker setup: https://forum.xda-developers.com/showthread.php?t=2317790
+
+You can use [Chocolatey] for an easier install:
+
+[Chocolatey]: https://chocolatey.org/
+
+```bash
+choco install scrcpy
+choco install adb    # if you don't have it yet
+```
+
+Or use [Scoop]:
+
+```bash
+scoop install scrcpy
+scoop install adb    # if you don't have it yet
+```
+
+[Scoop]: https://scoop.sh
+
+
+
+Or, alternatively:
+You can use Minimal ADB and Fastboot for a manual but quick setup: https://forum.xda-developers.com/showthread.php?t=2317790
 
 You can test the working of ADB by opening a command prompt in your Minimal ADB and Fastboot folder and typing "adb devices", if it's working, your device should show up with a device id.
 
-Scrcpy for screen-mirroring: https://github.com/Genymobile/scrcpy
+And then install Scrcpy for screen-mirroring: https://github.com/Genymobile/scrcpy
+
 
 # Usage
  Edit the batch files to specify path to the adb folder.
